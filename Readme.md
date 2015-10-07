@@ -1,4 +1,9 @@
 **Note:** I forked the original `page.js` because I needed IE9 support. This repo is just a fork with the merged [PR #288](https://github.com/visionmedia/page.js/pull/288) necessary for fixing IE9. Once the PR is merged, I'll probably delete this repo. But until then, feel free to use it if you need the support.
+
+Isn't it fun having to polyfill and fix bugs for IE and Safari? ;)
+
+Don't forget to also add the [`html5-history-api`](https://github.com/devote/HTML5-History-API) from npm and load it before your router.
+
  ---
  
  ![page router logo](http://f.cl.ly/items/3i3n001d0s1Q031r2q1P/page.png)
