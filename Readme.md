@@ -1,3 +1,6 @@
+**Note:** I forked the original `page.js` because I needed IE9 support. This repo is just a fork with the merged [PR #288](https://github.com/visionmedia/page.js/pull/288) necessary for fixing IE9. Once the PR is merged, I'll probably delete this repo. But until then, feel free to use it if you need the support.
+ ---
+ 
  ![page router logo](http://f.cl.ly/items/3i3n001d0s1Q031r2q1P/page.png)
 
 Tiny Express-inspired client-side router.
