@@ -172,7 +172,7 @@ page('/sidebar', function(ctx, next) {
   next()
 })
 
-page.exit('/sidebar', function(next) {
+page.exit('/sidebar', function(ctx, next) {
   sidebar.open = false
   next()
 })
